@@ -1,0 +1,13 @@
+# Keep source files portable across Windows and Linux-hosted CI runners.
+* text=auto eol=lf
+
+# Binary application assets and release files must not be normalized.
+*.ico binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.exe binary
+*.dll binary
+*.pdb binary

@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltrawideToys.Core", "src\UltrawideToys.Core\UltrawideToys.Core.csproj", "{4C3D8AC4-3D56-4D8E-8CB3-CE1E2C83A8A1}"
+EndProject
+Project("{60DC8134-EBA5-43B8-BCC9-BB4BC16C2548}") = "UltrawideToys.App", "src\UltrawideToys.App\UltrawideToys.App.csproj", "{CF9E6BCB-26B0-4A0B-BB7D-7E4C32DCE7D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltrawideToys.Agent", "src\UltrawideToys.Agent\UltrawideToys.Agent.csproj", "{1B7DC76A-0CEB-4D41-9D67-BDF6BAF93670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltrawideToys.Core.Tests", "tests\UltrawideToys.Core.Tests\UltrawideToys.Core.Tests.csproj", "{F0D8B34D-C7F0-43F2-9E78-7B52C8C4F7A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowProbe", "tests\WindowProbe\WindowProbe.csproj", "{1BE0F2B7-A9EF-4D7A-A4EA-C5B8AB9CD9C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C3D8AC4-3D56-4D8E-8CB3-CE1E2C83A8A1}.Debug|x64.ActiveCfg = Debug|x64
+		{4C3D8AC4-3D56-4D8E-8CB3-CE1E2C83A8A1}.Debug|x64.Build.0 = Debug|x64
+		{4C3D8AC4-3D56-4D8E-8CB3-CE1E2C83A8A1}.Release|x64.ActiveCfg = Release|x64
+		{4C3D8AC4-3D56-4D8E-8CB3-CE1E2C83A8A1}.Release|x64.Build.0 = Release|x64
+		{CF9E6BCB-26B0-4A0B-BB7D-7E4C32DCE7D2}.Debug|x64.ActiveCfg = Debug|x64
+		{CF9E6BCB-26B0-4A0B-BB7D-7E4C32DCE7D2}.Debug|x64.Build.0 = Debug|x64
+		{CF9E6BCB-26B0-4A0B-BB7D-7E4C32DCE7D2}.Release|x64.ActiveCfg = Release|x64
+		{CF9E6BCB-26B0-4A0B-BB7D-7E4C32DCE7D2}.Release|x64.Build.0 = Release|x64
+		{1B7DC76A-0CEB-4D41-9D67-BDF6BAF93670}.Debug|x64.ActiveCfg = Debug|x64
+		{1B7DC76A-0CEB-4D41-9D67-BDF6BAF93670}.Debug|x64.Build.0 = Debug|x64
+		{1B7DC76A-0CEB-4D41-9D67-BDF6BAF93670}.Release|x64.ActiveCfg = Release|x64
+		{1B7DC76A-0CEB-4D41-9D67-BDF6BAF93670}.Release|x64.Build.0 = Release|x64
+		{F0D8B34D-C7F0-43F2-9E78-7B52C8C4F7A4}.Debug|x64.ActiveCfg = Debug|x64
+		{F0D8B34D-C7F0-43F2-9E78-7B52C8C4F7A4}.Debug|x64.Build.0 = Debug|x64
+		{F0D8B34D-C7F0-43F2-9E78-7B52C8C4F7A4}.Release|x64.ActiveCfg = Release|x64
+		{F0D8B34D-C7F0-43F2-9E78-7B52C8C4F7A4}.Release|x64.Build.0 = Release|x64
+		{1BE0F2B7-A9EF-4D7A-A4EA-C5B8AB9CD9C7}.Debug|x64.ActiveCfg = Debug|x64
+		{1BE0F2B7-A9EF-4D7A-A4EA-C5B8AB9CD9C7}.Debug|x64.Build.0 = Debug|x64
+		{1BE0F2B7-A9EF-4D7A-A4EA-C5B8AB9CD9C7}.Release|x64.ActiveCfg = Release|x64
+		{1BE0F2B7-A9EF-4D7A-A4EA-C5B8AB9CD9C7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application x:Class="UltrawideToys.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" ThemeMode="System" ShutdownMode="OnExplicitShutdown" xmlns:ultrawidetoys="clr-namespace:UltrawideToys;assembly=UltrawideMonitor">
+  <Application.Resources>
+    <ResourceDictionary>
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/PresentationFramework.Fluent;component/Themes/Fluent.xaml" />
+      </ResourceDictionary.MergedDictionaries>
+      <SolidColorBrush x:Key="UltrawideAccentBrush" Color="#0078D4" />
+      <SolidColorBrush x:Key="UltrawidePanelBrush" Color="#F5F5F5" />
+      <Style x:Key="{x:Type TextBlock}" TargetType="{x:Type TextBlock}">
+        <Setter Property="FontFamily" Value="Segoe UI Variable" />
+        <Setter Property="Foreground" Value="{DynamicResource TextFillColorPrimaryBrush}" />
+      </Style>
+      <Style x:Key="{x:Type Button}" TargetType="{x:Type Button}">
+        <Setter Property="Margin" Value="0,4,8,4" />
+        <Setter Property="Padding" Value="14,8" />
+        <Setter Property="FontFamily" Value="Segoe UI Variable" />
+      </Style>
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>

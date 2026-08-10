@@ -1,0 +1,29 @@
+# .NET / Visual Studio build output
+**/[Bb]in/
+**/[Oo]bj/
+artifacts/
+TestResults/
+.vs/
+
+# IDE and local user state
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build and packaging by-products
+*.pdb
+*.nupkg
+*.snupkg
+*.log
+*.tmp
+*.bak
+
+# Local design exports and temporary assets
+assets/UltrawideToys-logo-temp.png
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+Ultrawide Monitor — licence personnelle et non commerciale
+
+Copyright (c) 2026 Gil Breysse (RED)
+
+Cette licence autorise l’utilisation, l’étude et la modification du logiciel à titre personnel et non commercial.
+
+Toute vente, redistribution commerciale, intégration dans un produit ou service payant, ou utilisation professionnelle nécessite l’autorisation écrite de Gil Breysse (RED).
+
+Toute redistribution personnelle doit conserver le présent avis et créditer le projet : https://github.com/ImRedTV.
+
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE D’AUCUNE SORTE. L’AUTEUR NE POURRA ÊTRE TENU RESPONSABLE DES DOMMAGES LIÉS À SON UTILISATION.

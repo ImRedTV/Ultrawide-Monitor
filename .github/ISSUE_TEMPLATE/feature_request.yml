@@ -1,0 +1,24 @@
+name: Proposer une fonctionnalité
+description: Suggérer une amélioration compatible avec le périmètre du projet.
+title: "[Suggestion] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Besoin ou problème
+      description: Quelle situation cette proposition améliorerait-elle ?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposition
+      description: Décrivez le comportement souhaité.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives envisagées
