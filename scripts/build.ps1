@@ -24,7 +24,7 @@ function Invoke-Checked {
 
 New-Item -ItemType Directory -Path $publish, $installer -Force | Out-Null
 
-Invoke-Checked $dotnet @('restore', $solution)
+Invoke-Checked $dotnet @('restore', $solution, '--runtime', 'win-x64')
 Invoke-Checked $dotnet @('test', $tests, '--no-restore', '--configuration', 'Release')
 
 $publishArguments = @(

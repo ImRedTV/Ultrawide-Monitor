@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ImRedTV/Ultrawide-Monitor/releases"><img src="https://img.shields.io/github/v/release/ImRedTV/Ultrawide-Monitor?display_name=tag&sort=semver&style=for-the-badge&label=version" alt="Dernière version"></a>
-  <a href="https://github.com/ImRedTV/Ultrawide-Monitor/actions/workflows/build.yml"><img src="https://img.shields.io/github/actions/workflow/status/ImRedTV/Ultrawide-Monitor/build.yml?branch=main&style=for-the-badge&label=build" alt="État du build"></a>
-  <a href="https://github.com/ImRedTV/Ultrawide-Monitor/releases"><img src="https://img.shields.io/github/downloads/ImRedTV/Ultrawide-Monitor/total?style=for-the-badge&label=téléchargements" alt="Téléchargements"></a>
+  <a href="https://github.com/ImRedTV/Ultrawide-Monitor/releases"><img src="https://img.shields.io/badge/version-0.1.0-2563EB?style=for-the-badge" alt="Version 0.1.0"></a>
+  <a href="https://github.com/ImRedTV/Ultrawide-Monitor/actions/workflows/build.yml"><img src="https://img.shields.io/badge/build-CI%20configur%C3%A9e-2ea44f?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI configurée"></a>
+  <a href="https://github.com/ImRedTV/Ultrawide-Monitor/releases"><img src="https://img.shields.io/badge/release-%C3%A0%20venir-6b7280?style=for-the-badge&logo=github&logoColor=white" alt="Première release à venir"></a>
 </p>
 
 <p align="center">
