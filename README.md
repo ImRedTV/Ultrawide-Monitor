@@ -42,13 +42,13 @@ La disposition est enregistrée sous forme de ratios normalisés. Elle reste don
 
 ## Démonstration
 
-L’aperçu ci-dessous montre la page **Zones**, la disposition active et la sélection d’un preset :
+L’aperçu ci-dessous montre les paramètres :
 
 <p align="center">
   <img src="docs/media/ultrawide-monitor-zones.gif" alt="Démonstration de la page Zones d’Ultrawide Monitor" width="800">
 </p>
 
-Une fenêtre de l’Explorateur peut ensuite être déplacée et ajustée dans la zone configurée :
+Une fenêtre peut ensuite être déplacée et ajustée dans les zones configurée :
 
 <p align="center">
   <img src="docs/media/ultrawide-monitor-window-snapping.gif" alt="Démonstration de l’accrochage d’une fenêtre dans une zone" width="800">
