@@ -191,3 +191,11 @@ Projet et identité visuelle par [Gil Breysse (RED)](https://github.com/ImRedTV)
   <a href="https://github.com/ImRedTV/Ultrawide-Monitor">Voir le dépôt GitHub</a> ·
   <a href="https://github.com/ImRedTV/Ultrawide-Monitor/releases">Télécharger une version</a>
 </p>
+
+<p align="center">
+  <sub>Logiciel propulsé par OpenAI</sub><br>
+  <a href="https://openai.com/brand/" title="Directives de design OpenAI">
+    <img src="https://images.ctfassets.net/kftzwdyauwt9/2fkAIT3PbTRytKTBx9cx8o/229bc28cb338565fe735d8935abc801f/OpenAI_Wordmark_Gif.gif?fm=webp&amp;q=90&amp;w=3840" alt="OpenAI" height="26">
+  </a><br>
+  <sub>Logo utilisé conformément aux directives de marque OpenAI. Cette mention ne constitue pas une approbation ni une affiliation officielle.</sub>
+</p>
