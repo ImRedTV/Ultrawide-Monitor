@@ -71,7 +71,7 @@ internal sealed class TrayIconService : IDisposable
 					(Image?)null,
 					(EventHandler?)delegate
 					{
-						app.Shutdown();
+						app.ExitApplication();
 					}
 				}
 			}

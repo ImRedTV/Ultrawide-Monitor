@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
@@ -26,12 +27,27 @@ public partial class MainWindow : Window, IComponentConnector
 		_app = app;
 		FooterVersionText.Text = "Version " + Branding.Version;
 		ApplyTheme();
+		base.Closing += OnClosing;
 		base.Loaded += delegate
 		{
 			WindowBackdrop.Apply(this);
 		};
 		BuildNavigation();
 		ShowZonesPage();
+	}
+
+	private void OnClosing(object? sender, CancelEventArgs e)
+	{
+		if (_app.IsShuttingDown)
+		{
+			return;
+		}
+
+		// The settings window is a tray companion. Closing it must hide it instead
+		// of permanently closing the WPF Window instance (a closed Window cannot be
+		// shown again and used to cause the tray Settings command to crash).
+		e.Cancel = true;
+		Hide();
 	}
 
 	public void ShowZonesPage()

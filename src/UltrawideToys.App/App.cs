@@ -32,9 +32,13 @@ public partial class App : Application
 
 	private bool _ownsMutex;
 
+	private bool _isShuttingDown;
+
 	public AppSettings Settings => _settings;
 
 	public IReadOnlyList<MonitorProfile> Monitors => _settings.Monitors;
+
+	internal bool IsShuttingDown => _isShuttingDown;
 
 	protected override void OnStartup(StartupEventArgs e)
 	{
@@ -83,6 +87,7 @@ public partial class App : Application
 
 	protected override void OnExit(ExitEventArgs e)
 	{
+		_isShuttingDown = true;
 		_lifetime.Cancel();
 		SystemEvents.DisplaySettingsChanged -= OnDisplaySettingsChanged;
 		_windowManager?.Dispose();
@@ -256,6 +261,14 @@ public partial class App : Application
 
 	public void ShowSettings()
 	{
+		if (_isShuttingDown)
+		{
+			return;
+		}
+		if (_mainWindow == null || !_mainWindow.IsLoaded)
+		{
+			_mainWindow = new MainWindow(this);
+		}
 		if (_mainWindow != null)
 		{
 			if (!_mainWindow.IsVisible)
@@ -269,6 +282,12 @@ public partial class App : Application
 			_mainWindow.Activate();
 			_mainWindow.ShowZonesPage();
 		}
+	}
+
+	public void ExitApplication()
+	{
+		_isShuttingDown = true;
+		Shutdown();
 	}
 
 	public void OpenEditor(string? monitorId = null)
