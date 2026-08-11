@@ -40,6 +40,20 @@ Ultrawide Monitor transforme la surface de travail d’un ou plusieurs écrans e
 
 La disposition est enregistrée sous forme de ratios normalisés. Elle reste donc cohérente après un changement de résolution, de DPI, de barre des tâches ou après la reconnexion d’un écran.
 
+## Démonstration
+
+L’aperçu ci-dessous montre la page **Zones**, la disposition active et la sélection d’un preset :
+
+<p align="center">
+  <img src="docs/media/ultrawide-monitor-zones.gif" alt="Démonstration de la page Zones d’Ultrawide Monitor" width="800">
+</p>
+
+Une fenêtre de l’Explorateur peut ensuite être déplacée et ajustée dans la zone configurée :
+
+<p align="center">
+  <img src="docs/media/ultrawide-monitor-window-snapping.gif" alt="Démonstration de l’accrochage d’une fenêtre dans une zone" width="800">
+</p>
+
 ## Fonctionnalités
 
 - détection des écrans connectés, des coordonnées négatives et des DPI différents ;
