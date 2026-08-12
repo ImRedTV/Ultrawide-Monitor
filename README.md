@@ -48,7 +48,7 @@ L’aperçu ci-dessous montre les paramètres :
   <img src="docs/media/ultrawide-monitor-zones.gif" alt="Démonstration de la page Zones d’Ultrawide Monitor" width="800">
 </p>
 
-Une fenêtre peut ensuite être déplacée et ajustée dans les zones configurée :
+Une fenêtre peut ensuite être déplacée et ajustée dans les zones configurées :
 
 <p align="center">
   <img src="docs/media/ultrawide-monitor-window-snapping.gif" alt="Démonstration de l’accrochage d’une fenêtre dans une zone" width="800">
